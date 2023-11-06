@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 25px;
+}
+img {
+    max-width: 150px;
+    border-radius: 12px;
+}
+section{
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#education th, #education td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#education th {
+    background-color: #333;
+    color: #fff;
+    padding: 2;
+    margin: 0;
+}
+
+#education tr:nth-child(even) {
+    background-color: rgb(221, 159, 83);
+}
+h2
+{
+    padding-left: 10px;
+}
+p{
+    margin-left: 10px;
+}
+
+
+ul, ol {
+    padding: 2;
+    margin: 0;
+    list-style: none;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    position: relative;
+}
+footer {
+    background-color: rgb(221, 159, 83);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    color: #000000;
+}
+
+/* Position your WhatsApp icon to the bottom-right corner */
+.social-icons {
+    
+   margin: 20px;
+   font-size: 40px;
+   
+}
+.Email
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #1b1b1b;
+    
+}
+
+.my-float{
+	margin-top:16px;
+}
+
